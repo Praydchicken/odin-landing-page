@@ -7,11 +7,94 @@
 body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
-  max-width: 1000px;
-  margin: 0 auto;
+}
+
+h2 {
+  line-height: 1.2;
 }
 
 img {
   max-inline-size: 100%;
   display: block;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding-inline: 25%;
+}
+
+.header__logo {
+  color: #f9faf8;
+}
+
+.navigation__links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: #E5E7EB;
+  font-size: 1.125rem;
+}
+
+.hero {
+  background-color: #1F2937;
+  padding-inline: 25%;
+  padding-block: 120px;
+  justify-content: space-between;
+  display: flex;
+  gap: 32px;
+}
+
+.hero__content {
+  flex: 1;
+}
+
+.hero__content > * {
+  margin-block-end: 8px;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #F9FAF8;
+}
+
+.hero__subtext {
+  font-size: 1.125rem;
+  color: #E5E7EB;
+}
+
+.hero__image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  background-color: gray;
+  block-size: 260px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  padding-block: 8px;
+  padding-inline: 30px;
+  font-size: 18px;
+}
+
+.button__primary {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.button__primary:hover,
+.button__primary:focus-visible {
+  outline: 1px solid #3882F6;
+  background-color: #F9FAF8 ;
+  color: #3882F6;
+}
+
+
