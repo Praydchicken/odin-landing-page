@@ -99,13 +99,13 @@ button {
 
 .card {
   padding-inline: 25%;
-  padding-block-end: 120px;
+  padding-block-end: 100px;
   text-align: center;
 
 }
 
 .card > * {
-  padding-block: 40px;
+  margin-block: 40px;
 }
 
 .card__header {
@@ -132,5 +132,26 @@ button {
   margin: 0 auto 16px;
 }
 
+.testimonial {
+  background-color: #E5E7EB;
+  padding-inline: 25%;
+  padding-block: 100px;
+}
+
+.testimonial__quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.testimonial__content {
+  padding-inline: 64px;
+}
+
+.testimonial__cite {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: end;
+}
 
 
