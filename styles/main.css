@@ -51,6 +51,10 @@ button {
   color: #f9faf8;
 }
 
+.navigation {
+  padding-block: 24px;
+}
+
 .navigation__links {
   display: flex;
   gap: 20px;
