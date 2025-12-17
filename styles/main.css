@@ -32,6 +32,19 @@ button {
   color: #F9FAF8;
 }
 
+.button__cta {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  outline: 2px solid #F9FAF8;
+  padding-block: 8px;
+}
+
+.button__cta:hover,
+.button__cta:focus-visible {
+  background-color: #F9FAF8;
+  color: #3882F6;
+}
+
 .button__primary:hover,
 .button__primary:focus-visible {
   outline: 1px solid #3882F6;
@@ -167,4 +180,25 @@ button {
   text-align: end;
 }
 
+.cta {
+  padding-inline: 25%;
+  padding-block: 100px;
+}
+
+.cta__content {
+  display: flex;
+  border-radius: 16px;
+  justify-content: space-around;
+  background-color: #3882F6;
+  padding-block: 60px;
+  align-items: center;
+}
+
+.cta__item h2 {
+  color: #F9FAF8;
+}
+
+.cta__item p {
+  color: #E5E7EB;
+}
 
