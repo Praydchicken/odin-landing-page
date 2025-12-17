@@ -55,8 +55,17 @@ button {
   display: flex;
   gap: 20px;
   list-style: none;
-  color: #E5E7EB;
   font-size: 1.125rem;
+}
+
+.navigation__links a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.navigation__links a:hover,
+.navigation__links a:focus-visible {
+  color: #3882F6;
 }
 
 .hero {
